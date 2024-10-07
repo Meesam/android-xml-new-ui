@@ -1,5 +1,6 @@
 package com.xml_new_ui.myapplication
 
+import android.app.ActionBar
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -16,5 +17,8 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        setSupportActionBar(findViewById(R.id.app_toolbar))
+
+
     }
 }
